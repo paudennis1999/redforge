@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Sensitive lab artifacts — never commit these
+*.dit
+*.save
+*.hive
+ntds*
+*.kirbi
+*.ccache
+hashes.txt
+*.ntds
+loot/
+
+# scratch
+_to_delete/
